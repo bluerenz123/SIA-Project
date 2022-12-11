@@ -6,9 +6,9 @@ const product_services = require("../services/product");
 const order_services = require("../services/order");
 const transaction_services = require("../services/transaction");
 
-/* Index */
+//Index
 router.get("/", function (req, res, next) {
-  res.json({ message: "This is the index of the admin system server..." });
+	res.json({ message: "This is the index of the admin system server..." });
 });
 
 // ADMIN routes
