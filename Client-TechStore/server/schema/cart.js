@@ -16,7 +16,7 @@ const CartSchema = new Schema(
       type: Number,
       required: true,
     },
-    total_amount: Schema.Types.Decimal128,
+    total_price: Schema.Types.Decimal128,
   },
   { timestamps: true }
 );
